@@ -336,3 +336,75 @@ p {
 .expertise__item p {
   margin-bottom: 20px;
 }
+
+
+/**==================================================
+*** 8. Contacts
+===================================================**/
+
+.container--contacts {
+  display: flex;
+}
+
+.contacts--column {
+  flex: 1 0 50%;
+}
+
+.contacts__right {
+  padding-left: 100px;
+}
+
+.contacts__title {
+  margin-bottom: 30px;
+}
+
+/**==================================================
+*** 8.1 Contacts form
+===================================================**/
+
+.contacts-form__item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.contacts-form__item:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  line-height: 1;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contacts-form__textfield {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 12px 50px 12px 20px;
+  color: rgba(99, 96, 107, .5);
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contacts-form__textfield--message {
+  height: 200px;
+  resize: none;
+}
+
+.contacts-form__submit {
+  margin-left: 0;
+}
+
+.contacts-form__item--name:before {
+  content: '\F007';
+}
+
+.contacts-form__item--email:before {
+  content: '\F112';
+}
