@@ -589,12 +589,25 @@ p {
   width: 45px;
   height: 45px;
   margin: 10px;
+  transition: width .1s ease-in-out, height .1s ease-in-out;
 }
+
+.feadback__img:not(.active):hover{
+  width: 50px;
+  height: 50px;
+}
+
 
 .active{
   width: 70px;
   height: 70px;
+  /* transition: width .1s ease-in-out, height .1s ease-in-out; */
 }
+
+/* .active:hover{
+  width: 75px;
+  height: 75px;
+} */
 
 .arrow{
   font-size: 1.71rem;
