@@ -272,11 +272,11 @@ p {
   font-size: 100px;
   margin-bottom: 25px;
   cursor: pointer;
-  transition: transform .2s linear;
+  transition: font-size .2s linear;
 }
 
 .video__btn:hover {
-  transform: rotate(15deg);
+  font-size: 110px;
 }
 
 .video__title {
@@ -407,4 +407,196 @@ p {
 
 .contacts-form__item--email:before {
   content: '\F112';
+}
+
+/**==================================================
+*** 9. Team
+===================================================**/
+.team{
+  width: 100%;
+  height: 720px;
+  background: linear-gradient(
+    to bottom,
+    rgba(49, 29, 93, 0.85) 0%,
+    rgba(27, 16, 68, 0.85) 50%,
+    rgba(9, 5, 48, 0.85) 100%
+  ),
+  url('../img/teambg.png') center center no-repeat/cover;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.team .section-header{
+  margin: 0 auto 40px auto;
+}
+
+.team__title,
+.team__sub-title{
+  color: #fff;
+}
+
+.team .underline:before{
+  background: rgba(256, 256, 256, .2);
+}
+
+.team__galery{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 300px 70px 300px;
+}
+
+.team__item{
+  width: 220px;
+  height: 305px;
+  margin: 0 10px 0 10px;
+  border: #fff 1px solid;
+  text-align: center;
+  padding: 0;
+}
+
+.team__img{
+  margin-bottom: 18px;
+  width: 100%;
+  height: 230px;
+}
+
+.team__img-title,
+.team__img-sub-title{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.team__img-title{
+  font-weight: 900;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.team__img-sub-title{
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.team__text{
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.team__bottom-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/**==================================================
+*** 10. Feadback
+===================================================**/
+.feadback{
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+    to bottom,
+    rgba(49, 29, 93, 0.85) 0%,
+    rgba(27, 16, 68, 0.85) 50%,
+    rgba(9, 5, 48, 0.85) 100%
+  ),
+  url('../img/feadbackbg.png') center center no-repeat/cover;
+  color: #fff;
+  text-align: center;
+}
+
+.feadback.section{
+  padding: 60px 0 60px 0;
+  position: relative;
+}
+
+.feadback--wrapper{
+  padding: 0 430px 0 430px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.feadback__title{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 7.14rem;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+}
+
+.feadback__quote{
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+
+.feadback__author,
+.feadback__author-proffesion{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.feadback__author{
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.feadback__author-proffesion{
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.feadback_quotes-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  0 60px 0 60px;
+}
+
+.feadback__list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.feadback__item{
+  list-style: none;
+  display: inline-block;
+}
+
+.feadback__img{
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+}
+
+.active{
+  width: 70px;
+  height: 70px;
+}
+
+.arrow{
+  font-size: 1.71rem;
+  color: #413d4b;
+  /* margin: 25px; */
+}
+
+/**==================================================
+*** 11. Galery
+===================================================**/
+
+.galery{
+  background: #fff;
+  height: 735px;
+  width: 100%;
 }
