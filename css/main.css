@@ -434,6 +434,17 @@ p {
 .team__title,
 .team__sub-title{
   color: #fff;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.team__title{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.team__sub-title{
+  font-weight: 400;
+  font-size: 14px; 
 }
 
 .team .underline:before{
