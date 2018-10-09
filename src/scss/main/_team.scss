@@ -23,11 +23,19 @@
   .team__title{
     font-weight: 700;
     font-size: 1.57rem;
+
+    @media screen and (max-width: 1024px){
+      font-size: 1.2rem;
+    }
   }
   
   .team__sub-title{
     font-weight: 400;
     font-size: 1rem; 
+    
+    @media screen and (max-width: 1024px){
+      font-size: 0.8rem;
+    }
   }
   
   
@@ -45,12 +53,21 @@
     border: #fff 1px solid;
     text-align: center;
     padding: 0;
+    @media screen and (max-width: 1024px){
+      min-width: 150px;
+      height: 250px;
+    }
   }
   
   .team__img{
     margin-bottom: 18px;
     width: 100%;
     height: 230px;
+    
+    @media screen and (max-width: 1024px){
+      height: 190px;
+      margin-bottom: 8px;
+    }
   }
   
   .team__img-title,
@@ -64,11 +81,20 @@
     font-weight: 900;
     margin-bottom: 8px;
     font-size: 1rem;
+
+    @media screen and (max-width: 1024px){
+      margin-bottom: 4px;
+      font-size: 0.8rem;
+    }
   }
   
   .team__img-sub-title{
     font-weight: 300;
     font-size: 0.93rem;
+
+    @media screen and (max-width: 1024px){
+      font-size: 0.65rem;
+    }
   }
   
   .team__text{

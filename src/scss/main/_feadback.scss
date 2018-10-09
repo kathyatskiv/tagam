@@ -19,6 +19,10 @@
       padding: 0 250px;
     }
 
+    @media screen and (max-width: 1024px){
+      padding: 0 100px;
+    }
+
   }
   
   .feadback__title{
@@ -28,6 +32,10 @@
     top: 35px;
     left: 0;
     right: 0;
+
+    @media screen and (max-width: 1024px){
+      font-size: 6rem;
+    }
   }
   
   .feadback__quote{
@@ -46,12 +54,20 @@
     font-size: 1rem;
     font-weight: 900;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 1024px){
+      font-size: 0.8rem;
+    }
   }
   
   .feadback__author-proffesion{
     font-size: 0.93rem;
     font-weight: 300;
     margin-bottom: 40px;
+
+    @media screen and (max-width: 1024px){
+      font-size: 0.65rem;
+    }
   }
   
   .feadback_quotes-nav{
