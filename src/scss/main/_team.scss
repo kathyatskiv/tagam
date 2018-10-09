@@ -1,0 +1,88 @@
+.team{
+    width: 100%;
+    height: 720px;
+    background: $gradient,
+    url('../img/teambg.png') center center no-repeat/cover;
+    
+    .section-header{
+        margin: 0 auto 40px auto;
+    }
+    
+    .section__sub-title:before{
+      background: rgba(256, 256, 256, .2);
+    }
+}
+  
+  
+  .team__title,
+  .team__sub-title{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+  }
+  
+  .team__title{
+    font-weight: 700;
+    font-size: 1.57rem;
+  }
+  
+  .team__sub-title{
+    font-weight: 400;
+    font-size: 1rem; 
+  }
+  
+  
+  .team__galery{
+    display: flex;
+    justify-content: center;
+    margin: 0 300px 70px 300px;
+    // padding: 0 300px;
+  }
+  
+  .team__item{
+    min-width: 220px;
+    height: 305px;
+    margin: 0 10px;
+    border: #fff 1px solid;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .team__img{
+    margin-bottom: 18px;
+    width: 100%;
+    height: 230px;
+  }
+  
+  .team__img-title,
+  .team__img-sub-title{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .team__img-title{
+    font-weight: 900;
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  .team__img-sub-title{
+    font-weight: 300;
+    font-size: 0.93rem;
+  }
+  
+  .team__text{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .team__bottom-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+  

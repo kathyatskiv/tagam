@@ -1,0 +1,44 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+.content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0;
+  flex: 1 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0; }
+
+p {
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.57;
+  font-weight: 300; }
+
+.container {
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 auto; }

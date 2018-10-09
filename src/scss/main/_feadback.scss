@@ -1,0 +1,96 @@
+.feadback{
+    width: 100%;
+    height: 500px;
+    background: $gradient,
+    url('../img/feadbackbg.png') center center no-repeat/cover;
+    color: #fff;
+    text-align: center;
+    
+    &.section{
+      padding: 60px 0 60px 0;
+      position: relative;
+    }
+  }
+  
+  .feadback--wrapper{
+    padding: 0 430px;
+
+    @media screen and (max-width: 1240px){
+      padding: 0 250px;
+    }
+
+  }
+  
+  .feadback__title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 7.14rem;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+  }
+  
+  .feadback__quote{
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 45px;
+  }
+  
+  .feadback__author,
+  .feadback__author-proffesion{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .feadback__author{
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .feadback__author-proffesion{
+    font-size: 0.93rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  
+  .feadback_quotes-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 60px 0 60px;
+  }
+  
+  .feadback__list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feadback__item{
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .feadback__img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    transition: width .1s ease-in-out, height .1s ease-in-out;
+    
+    &:not(.active):hover{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  .active{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .arrow{
+    font-size: 1.71rem;
+    color: #413d4b;
+  }

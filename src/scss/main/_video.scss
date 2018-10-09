@@ -1,0 +1,39 @@
+.video {
+    width: 100%;
+    height: 550px;
+    background: $gradient,
+    url('../img/video.jpg') center center no-repeat/cover;
+    display: flex;
+  }
+  
+  .video__btn-wrap {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video__btn {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #fff;
+    font-size: 7.14rem;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: font-size .2s linear;
+    
+    &:hover {
+      font-size: 7.86rem;
+    }
+  }
+  
+  
+  .video__title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.14rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  
