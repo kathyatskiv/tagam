@@ -10,6 +10,7 @@
     margin: auto;
     width: 800px;
     text-align: center;
+    padding: 0 25px;
   }
   
   .hero__title {
@@ -22,6 +23,14 @@
     &:before {
       background: #00dfcf;
     }
+
+    @include tablet{
+      font-size: 1.58rem;
+    }
+
+    @include small-screen{
+      font-size: 1.35rem
+    }
   }
   
   
@@ -30,4 +39,10 @@
     letter-spacing: 1px;
     margin-bottom: 45px;
     color: #fff;
+  }
+
+  .hero__btn{
+    @include tablet{
+      font-size: 0.9rem;
+    }
   }

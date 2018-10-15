@@ -1,0 +1,38 @@
+.footer__description{
+
+    .logo
+    {
+        margin-bottom: 20px;
+    }
+
+    p{
+        color: #fff;
+        width: 300px;
+        margin-bottom: 75px;;
+    }
+
+    padding-left: 10px;
+}
+
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__item{
+    display: inline-block;
+}
+
+.footer__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+
+    &:hover{
+        color: #00dfcf;
+    }
+}

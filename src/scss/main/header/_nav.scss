@@ -1,3 +1,10 @@
+.nav{
+  @include normal{
+    padding-right: 15px;
+  }
+
+}
+
 .nav__list {
     display: flex;
   }
@@ -5,6 +12,14 @@
 .nav__item{
     &:not(:last-child) {
       margin-right: 20px;
+      
+      @include normal{
+        margin-right: 15px;
+      }
+
+      @include tablet{
+        margin-right: 10px;
+      }
     }
 }
   
@@ -17,6 +32,18 @@
     
     &:hover{
       color: #00dfcf;
+    }
+    
+    @include normal{
+      font-size: 0.7rem;
+    }
+
+    @include tablet{
+      font-size: 0.56rem;
+    }
+
+    @include small-screen{
+      font-size: 0.37rem;
     }
   }
 

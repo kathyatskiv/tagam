@@ -1,0 +1,27 @@
+.footer__studio{
+    p{
+        color: #fff;
+        font-size: 1rem;
+    }
+}
+
+.footer__studio--headline{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer__studio-item{
+    display: flex;
+
+    p{
+        width: 240px;
+        margin-left: 10px;
+    }
+}
+
+.footer__studio-link{
+    text-decoration: none;
+    color: #fff;
+}

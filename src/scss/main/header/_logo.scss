@@ -1,6 +1,15 @@
 .logo__link {
     display: block;
     width: 130px;
+    margin-right: 20px;
+
+    @include tablet{
+      width: 100px;
+    }
+
+    @include small-screen{
+      width: 60px;
+    }
   }
   
   .logo__img {

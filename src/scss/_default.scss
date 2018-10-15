@@ -14,8 +14,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 
-    @media screen and (max-width: 1024px){
-      font-size: 12px;
+    @include normal{
+      font-size: 0.85rem;
+    }
+
+    @include tablet{
+      font-size: 0.7rem;
+    }
+
+    @include small-screen{
+      font-size: 0.5rem;
     }
   }
   
@@ -42,6 +50,23 @@
   
   .container {
     width: 960px;
+
+    @include normal{
+      width: 700px;
+    }
+
+    @include tablet{
+      width: 560px;
+    }
+
+    @include small-screen{
+      width: 375px;
+    }
+
+    @include mini-screen{
+      width: 250px;
+    }
+
     padding: 0 10px;
     margin: 0 auto;
   }
