@@ -3,27 +3,58 @@
     .logo
     {
         margin-bottom: 20px;
+
+        .logo__link{
+            @include tablet{
+                display: inline-block;
+                width: 100px;
+            }
+        }
     }
 
     p{
         color: #fff;
         width: 300px;
-        margin-bottom: 75px;;
+        margin-bottom: 75px;
+
+        @include tablet{
+            width: 500px;
+            margin-bottom: 35px;
+        }
+
+        @include small-screen{
+            width: 300px;
+        }
     }
 
     padding-left: 10px;
+
+    @include tablet{
+        padding: 0;
+        margin-bottom: 35px;
+    }
 }
 
 
 .footer__list{
     display: flex;
     justify-content: space-between;
+
+    @include tablet{
+        justify-content: flex-start;
+    }
+
+    @include small-screen{
+        justify-content: space-between;
+    }
+
     padding: 0;
     list-style: none;
 }
 
 .footer__item{
     display: inline-block;
+    margin-right: 10px;
 }
 
 .footer__link{

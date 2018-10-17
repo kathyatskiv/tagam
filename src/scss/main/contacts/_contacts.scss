@@ -1,5 +1,9 @@
 .container--contacts {
     display: flex;
+
+    @include small-screen{
+      flex-direction: column;
+    }
   }
   
   .contacts--column {
@@ -8,10 +12,22 @@
   
   .contacts__right {
     padding-left: 100px;
+
+    @include small-screen{
+      margin-top: 60px;
+      padding-left: 0;
+    }
   }
   
   .contacts__title {
     margin-bottom: 30px;
+    text-align: center;
   }
   
+  .contacts__clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
   

@@ -1,0 +1,15 @@
+.footer__studio p {
+  color: #fff;
+  font-size: 1rem; }
+
+.footer__studio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer__studio-item p {
+    width: 240px;
+    margin-left: 10px; }
+
+.footer__studio-link {
+  text-decoration: none;
+  color: #fff; }
