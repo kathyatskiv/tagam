@@ -19,11 +19,11 @@
     }
 
     @include tablet{
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
 
     @include small-screen{
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
   }
   
@@ -50,6 +50,8 @@
   
   .container {
     width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
 
     @include normal{
       width: 700px;
@@ -61,13 +63,13 @@
 
     @include small-screen{
       width: 375px;
+      margin: 0 20px;
     }
 
     @include mini-screen{
       width: 250px;
+      margin: 0 3px;
     }
 
-    padding: 0 10px;
-    margin: 0 auto;
   }
   
